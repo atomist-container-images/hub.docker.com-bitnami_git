@@ -1,12 +1,24 @@
-# Tags: latest, 2.36.0-debian-10-r10, 2.36.0, 2-debian-10, 2
+# Tags: latest, 2.36.0-debian-10-r14, 2.36.0, 2-debian-10, 2
 FROM bitnami/git:latest
-FROM bitnami/git:2.36.0-debian-10-r10
+FROM bitnami/git:2.36.0-debian-10-r14
 FROM bitnami/git:2.36.0
 FROM bitnami/git:2-debian-10
 FROM bitnami/git:2
 
 # Tags: _
 FROM bitnami/git:_
+
+# Tags: 2.36.0-debian-10-r13
+FROM bitnami/git:2.36.0-debian-10-r13
+
+# Tags: 2.36.0-debian-10-r12
+FROM bitnami/git:2.36.0-debian-10-r12
+
+# Tags: 2.36.0-debian-10-r11
+FROM bitnami/git:2.36.0-debian-10-r11
+
+# Tags: 2.36.0-debian-10-r10
+FROM bitnami/git:2.36.0-debian-10-r10
 
 # Tags: 2.36.0-debian-10-r9
 FROM bitnami/git:2.36.0-debian-10-r9
@@ -91,15 +103,3 @@ FROM bitnami/git:2.35.1-debian-10-r65
 
 # Tags: 2.35.1-debian-10-r64
 FROM bitnami/git:2.35.1-debian-10-r64
-
-# Tags: 2.35.1-debian-10-r63
-FROM bitnami/git:2.35.1-debian-10-r63
-
-# Tags: 2.35.1-debian-10-r62
-FROM bitnami/git:2.35.1-debian-10-r62
-
-# Tags: 2.35.1-debian-10-r61
-FROM bitnami/git:2.35.1-debian-10-r61
-
-# Tags: 2.35.1-debian-10-r60
-FROM bitnami/git:2.35.1-debian-10-r60
