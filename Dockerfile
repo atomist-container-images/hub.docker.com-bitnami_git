@@ -100,6 +100,3 @@ FROM bitnami/git:2.35.1-debian-10-r66
 
 # Tags: 2.35.1-debian-10-r65
 FROM bitnami/git:2.35.1-debian-10-r65
-
-# Tags: 2.35.1-debian-10-r64
-FROM bitnami/git:2.35.1-debian-10-r64
